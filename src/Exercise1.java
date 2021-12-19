@@ -60,12 +60,13 @@ public class Exercise1 {
                 if (isAlternateNumber (array[i])) {
                     if (array[i]<temp){
                         temp =array[i];
+                            return  temp;
                     }
                 }
             }
 
 
-            return  temp;
+            return  -1;
     }
 
 
